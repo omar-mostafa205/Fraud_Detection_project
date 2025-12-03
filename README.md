@@ -220,16 +220,3 @@ fraud_probabilities = model.predict_proba(new_data_imputed)[:, 1]
 4. **Threshold Optimization:** Adjust decision threshold based on business costs
 5. **External Data:** Incorporate additional data sources for better predictions
 
-##  License
-
-This project is part of an academic assignment at German International University of Applied Sciences.
-
-##  Acknowledgments
-
-- **Course:** Machine Learning, Winter 2025
-- **Instructors:** Dr. Caroline Sabty, TA Nouran Khaled, TA Sandra Samuel, TA Sarah Hatem
-- **Dataset Source:** Kaggle - Healthcare Provider Fraud Detection Analysis
-
----
-
-**Note:** This project emphasizes not only building accurate models but also understanding data structure, justifying modeling decisions, and communicating results effectively to both technical and non-technical audiences.
